@@ -1,24 +1,24 @@
-# 🤖 Custom OpenAI Agent
+Custom OpenAI Agent
 
-This project is a **custom OpenAI-powered chatbot agent** built with Python and deployed on **Hugging Face Spaces**.  
-It demonstrates integration of OpenAI’s API with **Gradio** for a simple interactive UI.
+This project is a custom OpenAI-powered chatbot agent built with Python and deployed on Hugging Face Spaces.  
+It demonstrates integration of OpenAI’s API with Gradio for a simple interactive UI.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 [Hugging Face Space](https://huggingface.co/spaces/Mansoor-7429/openai-agent)  
-⚠️ *Note: Requires a valid OpenAI API key with billing enabled.*
+⚠️ Note: Requires a valid OpenAI API key with billing enabled.
 
 ---
 
-## 📂 Repository
-👉 [GitHub Repository](https://github.com/Mansoor-7429/openai-agent)
+## Repository
+[GitHub Repository](https://github.com/Mansoor-7429/openai-agent)
 
 ---
 
 ## ⚠️ Important Notice
 This project has been successfully built and deployed.  
-However, due to OpenAI’s usage policy, it **requires an API key with billing enabled**.  
+However, due to OpenAI’s usage policy, it requires an API key with billing enabled.  
 
 If you encounter the following error:
 openai.RateLimitError: insufficient_quota
@@ -26,37 +26,32 @@ it means the API key used has no credits available.
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
-git clone https://github.com/Mansoor-7429/openai-agent.git
-cd openai-agent
+1. git clone https://github.com/Mansoor-7429/openai-agent.git
+   cd openai-agent
 
-Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-Add your OpenAI API Key
+3. Add your OpenAI API Key
 
-Create a file named .env in the project root:
-OPENAI_API_KEY=your_api_key_here
+4. Create a file named .env in the project root:
+   OPENAI_API_KEY=your_api_key_here
 
-python app.py
-You should see a Gradio interface running at:
+5. python app.py
+   You should see a Gradio interface running at:
+   http://127.0.0.1:7860
 
-cpp
-Copy code
-http://127.0.0.1:7860
-📦 Technologies Used
+
+## Technologies Used
 Python
-
 OpenAI API
-
 Gradio (UI)
-
 Hugging Face Spaces
-
 GitHub
 
-Notes
+## Notes
 The app is fully functional.
 Billing is required on the OpenAI API key to test it.
 Hugging Face Space may show an error without a valid API key.
